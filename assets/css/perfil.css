@@ -5,6 +5,16 @@
     height: 100vh;
 }
 
+header {
+    display: flex;
+       gap: 29%;
+}
+
+.titleHeader{
+    display: flex;
+    flex-direction: column;
+}
+
 h2{
     font-weight: bold;
 }
@@ -96,6 +106,7 @@ h2{
     justify-content: space-around;
     width: 8%;
     background-color: #ff9900;
+    align-self: center;
 }
 
 #buttonHome:hover{

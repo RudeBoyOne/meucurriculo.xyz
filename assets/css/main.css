@@ -177,6 +177,7 @@ hr{
     background-image: url("../imgs/aws-regions-map-2023-1030x615.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer{
@@ -185,4 +186,12 @@ footer{
     color: black;
     text-align: center;
     line-height: 1.5;
+}
+
+.error{
+    background-image: url("../../404.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 62%;
 }
